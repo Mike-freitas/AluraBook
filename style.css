@@ -1,0 +1,32 @@
+@import url("style/header.css");
+@import url("style/banner.css");
+@import url("style/carrossel.css");
+@import url("style/tópicos.css");
+@import url("style/contato.css");
+@import url("style/footer.css");
+
+
+:root{
+    --color-button-prime: #EBECEE;
+    --color-search: #D9D9D9;
+    --color-button: #EB9B00;
+    --color-white: #fff;
+    --color-gradient-blue: linear-gradient(22.54deg, #002F52 35.49%, #326589 165.37%);
+    --color-orange: #EB9B00;
+    --color-blue: #002F52;
+    --color-black: #000000;
+    --color-title-footer: #858585; 
+    --color-text-footer: #474646;
+    --fonte-principal: "Poppins";
+    --font-second: "Josefin Sans";
+
+
+   
+    
+}
+body{
+    background-color: var(--color-button-prime);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 700;
+}
